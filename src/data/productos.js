@@ -36,14 +36,14 @@ const productos = [
     },
 ]
 
-const navButtos =[
+const navButtons =[
     {
         link: '#',
         text: 'Home',
     },
     {
         link: '#',
-        text: 'Tema 01',
+        text: 'About',
     },
     {
         link: '#',
@@ -53,6 +53,6 @@ const navButtos =[
 
 export {
     productos,
-    navButtos
+    navButtons
 
 }

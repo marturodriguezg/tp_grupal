@@ -21,11 +21,13 @@ function App() {
   //  console.log(dataProducts)
   return (
     <>
-    <DesestArray />
-    <Map />
+  {/*  <DesestArray /> 
+    <Map /> */}
+{/* comentamos la card grid y lo de la aplicacion que ya no usamos */}
+  
     <NavBar />
     <HeroBanner />
-      <CardGrid data={productos} />
+   {/*   <CardGrid data={productos} /> */}
     <Footer />
 
     </>
