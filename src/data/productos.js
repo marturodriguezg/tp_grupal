@@ -38,12 +38,12 @@ const productos = [
 
 const navButtos =[
     {
-        link: '#',
+        link: 'https://google.com',
         text: 'Home',
     },
     {
         link: '#',
-        text: 'Tema 01',
+        text: 'About',
     },
     {
         link: '#',

@@ -21,11 +21,10 @@ function App() {
   //  console.log(dataProducts)
   return (
     <>
-    <DesestArray />
-    <Map />
     <NavBar />
+    {/* <CardGrid data= {productos} /> */}
     <HeroBanner />
-      <CardGrid data={productos} />
+      {/* <CardGrid data={productos} /> */}
     <Footer />
 
     </>
