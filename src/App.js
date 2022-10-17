@@ -22,9 +22,11 @@ function App() {
   return (
     <>
     <NavBar />
-    {/* <CardGrid data= {productos} /> */}
+    
     <HeroBanner />
-      {/* <CardGrid data={productos} /> */}
+    
+    <CardGrid data={productos}/>
+
     <Footer />
 
     </>
