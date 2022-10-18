@@ -4,12 +4,12 @@ import { BtnMain } from '../BtnMain'
 
 export const CardGrid = ({data}) => {
     const filtrado = (data)=>{
-        console.log(data)
+        // console.log(data)
     }
     filtrado()
   return (
     <>
-        <div className="row row-cols-1 row-cols-md-4 g-4">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
             {data.map(({id, title, text, img}) => (
                 <div className='col'key={id}>
                     <div className='card'>
