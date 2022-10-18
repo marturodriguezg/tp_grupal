@@ -13,25 +13,13 @@ function App() {
   //  console.log(dataProducts)
   return (
     <>
-      <MiPrimerComp />
+    <DesestArray />
+    <Map />
+    <NavBar />
+    <HeroBanner />
+      <CardGrid data={productos} />
+    <Footer />
 
-      <VarConstLet />
-
-      <TemplateString />
-
-      <ObjetosLiterales />
-
-      <JsArray /> 
-
-      {/* Aplicación de .map */}
-      {/* <CardGrid data={productos}  /> */}
-
-      <JsFunction />
-
-      {/* <DesestObj /> */}
-      
-      {/* <DesestArray /> */}
-      
     </>
   );
 }

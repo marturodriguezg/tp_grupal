@@ -1,5 +1,5 @@
 import React from 'react';
-import { navButtos } from '../../data/productos';
+import { navButtons } from '../../data/productos';
 
 
 
@@ -15,11 +15,18 @@ export const NavBar = () =>{
                 </button>
                 <div className='collapse navbar-collapse' id='navbarNav'>
                     <ul className='navbar-nav'>
-                        {navButtos.map(
-                            ({ text, link }) => (<li key={text} className='nav-item'>
-                                <a className='nav-link' aria-current='page' href={link} target='_blanck'> {text} </a>
-                            </li>)
-                        )}
+                        <li className='nav-item'>
+                            <a className='nav-link active' aria-current='page' href='#'>Home</a>
+                        </li>
+                        <li className='nav-item'>
+                            <a className='nav-link' href='#'>Features</a>
+                        </li>
+                        <li className='nav-item'>
+                            <a className='nav-link' href='#'>Pricing</a>
+                        </li>
+                        <li className='nav-item'>
+                            <a className='nav-link disabled'>Disabled</a>
+                        </li>
                     </ul>
                 </div>
             </div>

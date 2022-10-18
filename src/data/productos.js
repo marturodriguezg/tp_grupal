@@ -41,7 +41,7 @@ const productos = [
     },
 ]
 
-const navButtos =[
+const navButtons =[
     {
         link: 'https://google.com',
         text: 'Home',
@@ -58,6 +58,6 @@ const navButtos =[
 
 export {
     productos,
-    navButtos
+    navButtons
 
 }
