@@ -1,0 +1,11 @@
+.catalogo-lp h3{
+    padding: 50px 0px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.catalogo-lp{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}

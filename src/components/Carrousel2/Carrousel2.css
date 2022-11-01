@@ -1,0 +1,15 @@
+.card-body h5{
+    font-size: calc(20px + 1vh);
+}
+
+div.card-body{
+    margin: 0;
+}
+
+h5.card-title{
+    margin: 0;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 32px;
+}

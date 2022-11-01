@@ -1,0 +1,46 @@
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    background: white !important;    /*habia un !important en .bg-light que no me permitia cambiar el color*/
+    border-bottom: solid 1px rgb(234, 234, 234)
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    padding-bottom: 0;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+nav li{
+    margin: 0 px;
+    list-style: none;
+    padding: 30px 50px;
+    border-bottom: solid 3px transparent;
+}
+
+nav li:hover{
+    border-bottom: solid 3px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+li.nav-item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+a.dropdown-item{
+    text-align: center;
+
+}
+
+nav img{
+    height: 60px;
+    width: auto;
+    margin: 2%;
+}

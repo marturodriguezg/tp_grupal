@@ -1,3 +1,31 @@
 footer{
-    background-color: aqua;
+    background-color: rgb(30, 30, 30);
+}
+
+.footer-top p{
+    padding: 10px 10px;
+    margin: 0;
+    color: white;
+    font-size:calc(12px + 1.5vw);
+}
+
+footer img{       
+    width: calc(30px + 2vw);
+    margin:10px 30px calc(10px + 3vw);
+}
+
+footer a{
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+    font-size: 10px;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+footer span{
+    color: rgb(66, 66, 66);
+    font-size: 10px;
 }
