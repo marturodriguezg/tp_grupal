@@ -1,6 +1,7 @@
 import React from "react";
 import { Carrousel1 } from "../Carrousel1/Carrousel1";
 import { Carrousel2 } from "../Carrousel2/Carrousel2";
+import './Catalogo_LP.css'
 
 export const Catalogo_LP = () => {
     return (

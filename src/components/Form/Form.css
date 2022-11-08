@@ -1,0 +1,17 @@
+.formulario-container{
+    margin: 20px auto;
+    width: 80%;
+}
+
+.formulario-container h3, h4{
+    padding: 10px 0;
+}
+
+.form-check{
+    padding: 10px 0;
+}
+
+.form-check-input{
+    min-height: 20px;
+    min-width: 20px;
+}

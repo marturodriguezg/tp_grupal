@@ -1,4 +1,5 @@
 import React from "react";
+import { publicidad } from "../../assets";
 import './Header.css'
 
 export const Header = () => {
@@ -6,7 +7,7 @@ export const Header = () => {
       <header>
         <div class="overlay"></div>
 
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" src="/assets/vid/The Chuck Taylor All Star Converse Made by you.mp4"></video>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" src={publicidad}></video>
     
         <div class="container h-100">
           <div class="d-flex h-100 text-center align-items-center">

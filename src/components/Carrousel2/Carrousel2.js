@@ -1,4 +1,5 @@
 import React from "react";
+import './Carrousel2.css'
 
 export const Carrousel2 = () => {
     return (
