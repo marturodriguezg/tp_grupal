@@ -1,4 +1,4 @@
-const productos = [
+const snkr = [
     {
         id: '0001',
         title: 'Nike Air Jordan 1 High Negras',
@@ -71,6 +71,26 @@ const productos = [
         amount: 1,
         price: 35000,
     },
+]
+
+
+
+const navButtons =[
+    {
+        link: 'https://google.com',
+        text: 'Home',
+    },
+    {
+        link: '#',
+        text: 'About',
+    },
+    {
+        link: '#',
+        text: 'Contactos',
+    },
+]
+
+const tela = [
     {
         id: '0010',
         title: 'Chuck Taylor All Star Classic',
@@ -97,23 +117,9 @@ const productos = [
     },
 ]
 
-const navButtons =[
-    {
-        link: 'https://google.com',
-        text: 'Home',
-    },
-    {
-        link: '#',
-        text: 'About',
-    },
-    {
-        link: '#',
-        text: 'Contactos',
-    },
-]
-
 export {
-    productos,
+    snkr,
+    tela,
     navButtons
 
 }

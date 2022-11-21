@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Logo } from "../../assets";
+import { Cart } from "../cart/Cart";
 import './NavBar.css'
 
 export const NavBar = () => {
@@ -27,7 +28,11 @@ export const NavBar = () => {
                                                 <li class="nav-item">
                                                         <Link class="nav-link" aria-current="page" to='/sobre_nosotros'>SOBRE NOSOTROS</Link>
                                                 </li>
+                                                <li>                                
+                                                        <Cart />
+                                                </li>
                                         </ul>
+                                        
                                 </div>
                         </div>
                 </nav>

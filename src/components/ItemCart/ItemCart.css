@@ -1,3 +1,20 @@
 .cartItem img{
     width: 60px;
 }
+
+button {
+    transition-duration: 0.4s;
+}
+
+.border33:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.border3 {
+    border-radius: 3px;
+    background-color: white;
+    color: #f44336;
+    border: 2px solid #f44336;
+}
+

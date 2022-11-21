@@ -1,0 +1,14 @@
+.buy{
+    color: white;
+    background-color: #4EA933 !important;
+    border-color:  #4EA933 !important;
+}
+
+.card_div{
+    margin: 10px;
+}
+
+.btnposition{
+    position: relative !important;
+    left: 20px !important;
+}

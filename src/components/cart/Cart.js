@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 
 import { cartEmpty, cartFull } from '../../assets';
-import { CartContext } from '../context/CartContex';
+import { CartContext } from '../context/CartContext';
 import { ItemCart } from '../ItemCart/ItemCart';
 
 
@@ -58,7 +58,7 @@ export const Cart = () => {
                         <div className='modal-content'>
                             <h2>Tu carrito</h2>
 
-                            {cartItems.length === 0 ? <p>tu carrito está vacío</p> : (
+                            {cartItems.length === 0 ? <p>Tu carrito está vacío</p> : (
                                 <div>{cartItems.map((item, i) => (
 
                                     <ItemCart key={i} item={item} />

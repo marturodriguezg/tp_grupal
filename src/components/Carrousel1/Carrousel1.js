@@ -1,6 +1,7 @@
 import React from "react";
 import './Carrousel1.css'
 
+
 export const Carrousel1 = () => {
     return (
         <div id="carouselExampleIndicators1" class="carousel carousel-dark slide" data-bs-ride="false">
@@ -19,7 +20,7 @@ export const Carrousel1 = () => {
                                 </div>
                             </div>
                             <div class="col-md-8">
-                                <img src="./assets/img/productos/snkr/Nike Air Jordan 1 High Negras.png" class="img-fluid rounded-start" alt="..."></img>
+                                <img src="./assets/img/snkr/Nike Air Jordan 1 High Negras.png" class="img-fluid rounded-start" alt="..."></img>
                             </div>
                         </div>
                     </div>
@@ -33,7 +34,7 @@ export const Carrousel1 = () => {
                                 </div>
                             </div>
                             <div class="col-md-8">
-                                <img src="./assets/img/productos/snkr/ZAPATILLAS FORUM HI 84 YOUNG STAR-LORD.png" class="img-fluid rounded-start" alt="..."></img>
+                                <img src="./assets/img/snkr/ZAPATILLAS FORUM HI 84 YOUNG STAR-LORD.png" class="img-fluid rounded-start" alt="..."></img>
                             </div>
                         </div>
                     </div>
@@ -47,7 +48,7 @@ export const Carrousel1 = () => {
                                 </div>
                             </div>
                             <div class="col-md-8">
-                                <img src="./assets/img/productos/snkr/Nike Blazer Mid '77 Vintage.png" class="img-fluid rounded-start" alt="..."></img>
+                                <img src="./assets/img/snkr/Nike Blazer Mid 77 Vintage.png" class="img-fluid rounded-start" alt="..."></img>
                             </div>
                         </div>
                     </div>

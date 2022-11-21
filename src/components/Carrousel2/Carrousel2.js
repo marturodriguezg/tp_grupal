@@ -19,7 +19,7 @@ export const Carrousel2 = () => {
                                 </div>
                             </div>
                             <div class="col-md-8">
-                                <img src="./assets/img/productos/lona/Chuck Taylor High Negras.png" class="img-fluid rounded-start" alt="..."></img>
+                                <img src="./assets/img/tela/Chuck Taylor High Negras.png" class="img-fluid rounded-start" alt="..."></img>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ export const Carrousel2 = () => {
                                 </div>
                             </div>
                             <div class="col-md-8">
-                                <img src="./assets/img/productos/lona/Chuck Taylor All Star Classic.jpg" class="img-fluid rounded-start" alt="..."></img>
+                                <img src="./assets/img/tela/Chuck Taylor All Star Classic.jpg" class="img-fluid rounded-start" alt="..."></img>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ export const Carrousel2 = () => {
                                 </div>
                             </div>
                             <div class="col-md-8">
-                                <img src="./assets/img/productos/lona/VANS U OLD SKOOL.jpg" class="img-fluid rounded-start" alt="..."></img>
+                                <img src="./assets/img/tela/VANS U OLD SKOOL.jpg" class="img-fluid rounded-start" alt="..."></img>
                             </div>
                         </div>
                     </div>
